@@ -151,6 +151,12 @@ PORT=3000
 # MongoDB configuration
 MONGO_URI=mongodb://localhost:27017/app_db
 
+# PostgreSQL configuration
+POSTGRES_USER=user
+POSTGRES_PASSWORD=password
+POSTGRES_DB=app_db
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
 
 # JWT Secret
 JWT_SECRET=your_jwt_secret
